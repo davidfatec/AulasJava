@@ -7,18 +7,23 @@ import java.util.Scanner;
 
 /**
  *
- * @author david
+ * @author David Francisco
  */
 public class Class02 {
     public static void main(String[] args){
-        //entrada de dados 
+        //instanciando 
         Scanner sc = new Scanner(System.in);
+        
+        //entrada de dados 
         System.out.println("Entre com o primeiro numero: ");
         int num1 = sc.nextInt();
         System.out.println("Entre com o segundo numero: ");
         int num2 = sc.nextInt();
         
+        //processamento
         int soma = num1 + num2;
+        
+        //Saída de dado
         System.out.println("Soma: " + soma);
     }
     
