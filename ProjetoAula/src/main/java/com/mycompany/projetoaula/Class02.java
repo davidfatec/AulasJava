@@ -22,6 +22,8 @@ public class Class02 {
         
         //processamento
         int soma = num1 + num2;
+        int subtracao = num1 - num2;
+        int multiplicacao = num1 * num2;
         
         //Saída de dado
         System.out.println("Soma: " + soma);
