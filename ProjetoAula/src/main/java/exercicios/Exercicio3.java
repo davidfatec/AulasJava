@@ -1,7 +1,7 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+Faça um algoritmo para ler quatro notas e imprimir a média ponderada dessas 
+notas. Considere que os pesos das notas são: 1,2,3 e 4 respectivamente.
+*/
 package exercicios;
 import java.util.Scanner;
 /**
