@@ -14,6 +14,6 @@ public class Exercicio1 {
         System.out.println("Digite um valor numerico: ");
         int valor = scn.nextInt();
         System.out.println("Valor digitado: " + valor);
-        //editando novamente
+        
     }
 }
