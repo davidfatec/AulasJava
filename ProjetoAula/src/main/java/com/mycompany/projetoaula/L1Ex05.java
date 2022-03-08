@@ -3,10 +3,7 @@ package com.mycompany.projetoaula;
 
 import java.util.Scanner;
 
-/**
- *
- * @author david
- */
+
 public class L1Ex05 {
     public static void main(String[] args){
        Scanner scn = new Scanner(System.in);
@@ -18,7 +15,7 @@ public class L1Ex05 {
        System.out.println("Impressão dos multiplos de ");
        for(int i=numeroInicio;i<=numeroFinal;i++){
 	    if(i % 5 == 0)
-		System.out.println(i);			
+		System.out.print(i);			
        }
     }
 }

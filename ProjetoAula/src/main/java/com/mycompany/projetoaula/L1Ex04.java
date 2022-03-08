@@ -6,10 +6,6 @@ package com.mycompany.projetoaula;
 
 import java.util.Scanner;
 
-/**
- *
- * @author david
- */
 public class L1Ex04 {
     public static void main(String[] args){
         Scanner scn = new Scanner(System.in);
