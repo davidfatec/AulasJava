@@ -8,7 +8,7 @@ public class L3Ex01 {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         String nome = scn.next();
-        for(int i=1;i<10;i++){
+        for(int i=0;i<10;i++){
             System.out.println(nome);
         }           
     }

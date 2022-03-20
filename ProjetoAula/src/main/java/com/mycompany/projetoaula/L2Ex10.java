@@ -9,17 +9,17 @@ import java.util.Scanner;
 public class L2Ex10 {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
-        int m3 = scn.nextInt();
-        double conta = 0;
+        float m3 = scn.nextFloat();
+        float conta = 0.0f;
         if(m3 > 0 && m3 <= 10){
-            conta = m3 * 1.2;
-            System.out.println((int)conta);
+            conta = m3 * 1.2f;
+            System.out.println((float)conta);
         }else if(m3 >= 11 && m3 <= 20){
-            conta = m3 * 1.5;
-            System.out.println((int)conta);
+            conta = m3 * 1.5f;
+            System.out.println((float)conta);
         }else{
-            conta = m3 * 2;
-            System.out.println((int)conta);
+            conta = m3 * 2f;
+            System.out.println((float)conta);
         }  
     }
 }
