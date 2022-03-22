@@ -2,7 +2,8 @@
 package com.mycompany.projetoaula;
 import java.util.Scanner;
 /**
- *
+ *Faça um exercício que receba um número (long) e use um método para fazer o 
+ * fatorial de número. Ex: 6! = 65432*1 = 720 saída long resultado.
  * @author david
  */
 public class FatorialFor {
